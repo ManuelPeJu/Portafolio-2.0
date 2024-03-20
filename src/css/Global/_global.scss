@@ -1,0 +1,60 @@
+// COLOR SCHEME SCSS
+
+  $text: #e9e9ea;
+  $background: #101117;
+  $primary: #9da3d0;
+  $secondary: #263076;
+  $accent: #5264de;
+
+
+/* Use a more intuitive box-sizing model. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add accesible line-height and improve text rendering */
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: $background;
+  color: $text;
+  font-family: "Poppins", sans-serif;
+
+}
+
+/* Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Remove built-in form typography styles */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Avoid text overflows */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}

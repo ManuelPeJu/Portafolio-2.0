@@ -1,0 +1,42 @@
+.navbar {
+    background-color: $secondary;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    gap: 10px;
+
+    h1 {
+        margin: 0;
+    }
+    
+    h1 a {
+        color: white;
+        text-decoration: none;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        margin-right: 20px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: $accent;
+    }
+
+}
+
